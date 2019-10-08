@@ -1,11 +1,25 @@
 #include <iostream>
+#include<stdio.h>
 
 using namespace std;
 
-int main() {
+main() 
+{
+	int n=10;
+	int voti[n];
 	
-	int n = 10;
-	float voti[n];
+	for(n=0; n<10; n++)
+	{
+		cout<< "Inserisci voti" << endl;
+		cin>> voti[n] ;
+					
+	}
 	
-	
+	for(n=0; n<10; n++)
+	{
+	cout<< "I voti inseriti sono "<<voti[n]<<endl;
+    }
+    
+    cout<<"Ciao"<<endl;
+    
 }
